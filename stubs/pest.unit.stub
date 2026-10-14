@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-test('todo', function (): void {
+it('todo', function (): void {
     //
 })->todo();

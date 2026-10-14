@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-test('health check returns 200', function (): void {
+it('returns 200 from the health check endpoint', function (): void {
     $this->get('/up')->assertOk();
 });
